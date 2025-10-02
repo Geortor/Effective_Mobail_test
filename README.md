@@ -7,4 +7,4 @@
 
 *Для запуска скрипта каждую минуту создаем cron правило*
 
-`* * * * * /usr/local/bin/monitor_process.sh >> /var/log/cron_monitoring.log 2>&1`
+`* * * * * /emt/c/EFM/monitor_process.sh >> /var/log/cron_monitoring.log 2>&1`
