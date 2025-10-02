@@ -1,8 +1,8 @@
 #!/bin/bash
 
 PROCESS_NAME="sleep"
-MONITORING_URL="https://cronitor.link/p/d79eaddbe7c343e2872ef7baa2b0dda0/"
-LOG_FILE="/mnt/c/Школа 21/EFM/monitoring.log"
+MONITORING_URL="https://cronitor.link/p/d79eaddbe7c343e2872ef7baa2b0dda0/UVVpB7"
+LOG_FILE="/var/log/monitoring.log"
 PID_FILE="/var/run/monitor_${PROCESS_NAME}.pid"
 
 log_message() {
